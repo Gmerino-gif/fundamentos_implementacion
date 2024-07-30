@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Actividades HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .actividad {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .actividad h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .table {
+            display: table;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .row {
+            display: table-row;
+        }
+        .cell, .header {
+            display: table-cell;
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+        .header {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Actividad 1 -->
+    <div class="actividad" id="actividad1">
+        <h2>Actividad 1</h2>
+        Mi primer texto en una página web que no es un párrafo <br/>
+        <p>hola mundo</p>
+        <blockquote>MI PRIMER PÁRRAFO CITA EN una pagina web</blockquote>
+        <p>siempre se dice que este es el mejor sitio para ver videos online
+        <q cite="http://youtube.com/">www.youtube.com</q>
+        </p>
+        En ocasiones más vale <em>correr lento</em> pero seguro.
+        <p>Cuando el río suena <strong>piedras lleva</strong>.</p>
+    </div>
+
+    <!-- Actividad 2 -->
+    <div class="actividad" id="actividad2">
+        <h2>Actividad 2</h2>
+        <h1>Bienvenido a mi página web</h1>
+        <p>Aquí está una imagen de ejemplo:</p>
+        <img src="https://imagenes.muyinteresante.com/files/article_social_75/uploads/2023/05/11/645ca2cb29f8b.jpeg" alt="Imagen del sol" width="500" height="300">
+        <p>Esta es una imagen insertada en el documento HTML.</p>
+    </div>
+
+    <!-- Actividad 3 -->
+    <div class="actividad" id="actividad3">
+        <h2>Actividad 3</h2>
+        <h1>Bienvenido a mi página web</h1>
+        <p>Aquí está una imagen de ejemplo desde Internet:</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Full_Moon_Luc_Viatour.jpg/280px-Full_Moon_Luc_Viatour.jpg" alt="Una luna" width="800" height="600">
+        <p>Esta es una imagen de una luna insertada desde Internet.</p>
+    </div>
+
+    <!-- Actividad 4 -->
+    <div class="actividad" id="actividad4">
+        <h2>Actividad 4</h2>
+        <h1>Tabla de Datos con Contenido Variable</h1>
+        <table>
+            <tr>
+                <th>Texto</th>
+                <th>Hipervínculo</th>
+                <th>Imagen</th>
+            </tr>
+            <tr>
+                <td>Este es un texto en una celda.</td>
+                <td><a href="https://www.lascompras.online/product/alimentadores-de-comida-para-gatos-juguetes-para-mascotas-bola-de-comer-lentamente-divertido-juguete-para-mascotas-alimentador-lento-dispensador-de-entrenamiento-aumento-de-iq-bola-de-trato-la/">Juguete para gato</a></td>
+                <td><img src="https://www.purina.es/sites/default/files/styles/ttt_image_510/public/2024-02/sitesdefaultfilesstylessquare_medium_440x440public2022-06Bengal-Cat.jpg?itok=iVh6G_Ef" alt="Imagen de un gato" width="100" height="100"></td>
+            </tr>
+            <tr>
+                <td>Otro texto en una celda.</td>
+                <td><a href="https://www.wikipedia.org">Visita Wikipedia</a></td>
+                <td><img src="C:\GA6-220501096-AA4-EV01\img\sitesdefaultfilesstylessquare_medium_440x440public2022-06Bengal-Cat.jpg" alt="Otra imagen de un gato" width="100" height="100"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Actividad 5 -->
+    <div class="actividad" id="actividad5">
+        <h2>Actividad 5</h2>
+        <h1>Tabla de Datos con Contenido Variable con Divs</h1>
+        <div class="table">
+            <div class="row">
+                <div class="header">Texto</div>
+                <div class="header">Hipervínculo</div>
+                <div class="header">Imagen</div>
+            </div>
+            <div class="row">
+                <div class="cell">Este es un texto en una celda.</div>
+                <div class="cell"><a href="https://www.example.com">Visita Example</a></div>
+                <div class="cell"><img src="https://imagenes.muyinteresante.com/files/article_social_75/uploads/2023/05/11/645ca2cb29f8b.jpeg" alt="Imagen de un sol" width="100" height="100"></div>
+            </div>
+            <div class="row">
+                <div class="cell">Otro texto en una celda.</div>
+                <div class="cell"><a href="https://www.wikipedia.org">Visita Wikipedia</a></div>
+                <div class="cell"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Full_Moon_Luc_Viatour.jpg/280px-Full_Moon_Luc_Viatour.jpg" alt="Imagen de la luna" width="100" height="100"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Actividad 6 -->
+    <div class="actividad" id="actividad6">
+        <h2>Actividad 6</h2>
+        <form action="https://www.advantagetrainingprogram.com" method="post">
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br/>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required><br/>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br/>
+
+                <label>Sexo:</label>
+                <input type="radio" name="sexo" value="Varon" id="varon"><label for="varon">Varón</label><br/>
+                <input type="radio" name="sexo" value="Mujer" id="mujer"><label for="mujer">Mujer</label><br/>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetear">
+            </p>
+        </form>
+    </div>
+
+    <!-- Actividad 7 -->
+    <div class="actividad" id="actividad7">
+        <h2>Actividad 7</h2>
+        <h1>Hola, mundo!</h1>
+    </div>
+
+    <!-- Actividad 8 -->
+    <div class="actividad" id="actividad8">
+        <h2>Actividad 8</h2>
+        <form action="." oninput="range_control_value.value = range_control.valueAsNumber">
+            <p>
+                Nombre: <input type="text" name="name_control" autofocus required><br/>
+                Email: <input type="email" name="email_control" required><br/>
+                URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal"><br/>
+                Fecha: <input type="date" name="date_control"><br/>
+                Tiempo: <input type="time" name="time_control"><br/>
+                Fecha y hora de nacimiento: <input type="datetime" name="datetime_control"><br/>
+                Mes: <input type="month" name="month_control"><br/>
+                Semana: <input type="week" name="week_control"><br/>
+                Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0"><br/>
+                Intervalo (min 0, max 10): <input type="range" name="range_control" min="0" max="10" value="0"><output for="range_control" name="range_control_value">0</output><br/>
+                Teléfono: <input type="tel" name="tel_control"><br/>
+                Término de búsqueda: <input type="search" name="search_control"><br/>
+                Color Favorito: <input type="color" name="color_control"><br/>
+                <input type="submit" value="Submit!">
+            </
+
+            <!-- Actividad 9 -->
+            <meta charset="UTF-8">
+                <h2>Actividad 9</h2>
+
+                <h1>Página web con código JavaScript embebido</h1>
+                <div class="actividad" id="actividad8">
+    
+                <script type="text/javascript">
+                    // Mensaje de alerta al cargar la página
+                    alert("Mi primer mensaje usando JavaScript");
+                </script>
+                <!-- Botón que envía un mensaje de alerta -->
+                <button onclick="alert('¡Mi primer mensaje usando JavaScript!')">Haz clic aquí</button>
+
+        </div>
+
+                    <!-- Actividad 10 -->
+    <div class="actividad" id="actividad8">
+        <h2>Actividad 10</h2>
+        <title> Página web con código JavaScript embebido desde otros archivos
+                Fuera de la página actual 
+            </title>
+
+<script src="algo.js"></script> <script src="algol.js"></script>
+
+<script src="algo2.js"></script>
+
+
+    </div>
